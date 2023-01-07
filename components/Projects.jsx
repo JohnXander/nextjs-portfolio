@@ -1,10 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import healWheelImg from '../public/assets/projects/heal-wheel.png';
+import kubudImg from '../public/assets/projects/kubud.png'
+import stopTheBusImg from '../public/assets/projects/stop-the-bus.png'
+import cohortManagerImg from '../public/assets/projects/cohort-manager.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -14,36 +11,39 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
-        {/* <div className='grid md:grid-cols-2 gap-8'>
+        <h2 className='py-4'>What I&apos;ve Built Recently</h2>
+        <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Heal Wheel'
+            date="Dec 2022"
+            backgroundImg={healWheelImg}
+            projectUrl='/heal-wheel'
+            tech='TypeScript, Next.js, Tailwind, Prisma, tRPC, Vercel'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Kubud'
+            date="Dec 2022"
+            backgroundImg={kubudImg}
+            projectUrl='/kubud'
+            tech='TypeScript, Next.js, Tailwind, Prisma, tRPC, PostgreSQL'
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='Stop the Bus'
+            date="Oct 2022"
+            backgroundImg={stopTheBusImg}
+            projectUrl='/stop-the-bus'
+            tech='JavaScript, React.js, Express.js, Node.js, Prisma, PostgreSQL'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            title='Cohort Manager'
+            date="Oct 2022"
+            backgroundImg={cohortManagerImg}
+            projectUrl='/cohort-manager'
+            tech='JavaScript, React.js, Express.js, Node.js, Prisma, PostgreSQL'
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
