@@ -62,7 +62,7 @@ const Navbar = () => {
               alt='/'
               width='125'
               height='50'
-              className='cursor-pointer'
+              className='cursor-pointer object-contain'
             />
           </a>
         </Link>
