@@ -1,6 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 import healWheelImg from '../public/assets/projects/heal-wheel.png';
+import healWheelSignup from '../public/assets/projects/heal-wheel-signup.png';
+import healWheelLogin from '../public/assets/projects/heal-wheel-login.png';
+import healWheelStats from '../public/assets/projects/heal-wheel-stats.png';
+import healWheelPrompt from '../public/assets/projects/heal-wheel-prompt.png';
+import healWheelAdvice from '../public/assets/projects/heal-wheel-advice.png';
+import healWheelModal from '../public/assets/projects/heal-wheel-modal.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -18,6 +24,7 @@ const healWheel = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Heal Wheel</h2>
+          <h3 className='text-gray-500 mb-1'>Dec 2022</h3>
           <h3>An app that offers a 360 degree view of your current life situation.</h3>
         </div>
       </div>
@@ -26,25 +33,91 @@ const healWheel = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            An app that offers a 360 degree view of your current life situation.
-          </p>
           <a
             href='https://github.com/JohnXander/heal-wheel'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 my-4 mr-8'>Code</button>
           </a>
           <a
             href='https://heal-wheel.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 my-4'>Demo</button>
           </a>
+          <p>
+            Prototype project built for a friend who works as a life coach. This was a great opportunity
+            to continue learning T3 Stack technologies.
+          </p>
+          <div className='flex gap-4 py-4'>
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelSignup}
+              alt="signup"
+            />
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelLogin}
+              alt="login"
+            />
+          </div>
+          <p>
+            Very basic sign-up and login components. Making the website look beautiful was not my primary goal
+            for this project. If I continue developing Heal Wheel in future, I will learn how to authenticate the login 
+            credentials with Next-Auth, as well as adding some error-handling functions to the sign-in process.
+          </p>
+          <div className='flex gap-4 py-4'>
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelStats}
+              alt="stats"
+            />
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelPrompt}
+              alt="advice"
+            />
+          </div>
+          <p>
+            The wheel consists of 4 life categories, each of which have 5 levels (default level: 1). The levels 
+            you select will not be stored in the database until you press the <em>Save Stats</em> button.
+            If you attempt to navigate to the <em>Advice</em> component without first saving the stats, a modal
+            will appear and prompt you to do so.
+          </p>
+          <div className='flex gap-4 py-4'>
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelAdvice}
+              alt="stats"
+            />
+            <Image
+              className='object-cover'
+              width={300}
+              height={300}
+              src={healWheelModal}
+              alt="advice"
+            />
+          </div>
+          <p>
+            The levels in the advice boxes will now correspond with the wheel as this data is being fetched 
+            with a tRPC function. On clicking a <em>See Advice</em> button, a modal will appear with the corresponding
+            advice. My friend hasn&apos;t yet finished writing their advice data, so for now, the information in the 
+            database is simply <em>Mind advice 1</em>, <em>Mind advice 2</em> etc.
+          </p>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 h-fit'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
