@@ -59,9 +59,8 @@ const resume = () => {
         <div className='text-center py-4'>
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Full-Stack Web Developer
-            <span className='px-2'>|</span> HTML
+            <span className='font-bold'>Technical Skills:</span>
+            <span className='px-2'></span> HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>JavaScript
             <span className='px-2'>|</span>TypeScript
@@ -126,7 +125,7 @@ const resume = () => {
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>MULTIPLE ORGANIZATIONS</span>
+            <span className='font-bold'>MULTIPLE ORGANISATIONS</span>
             <span className='px-2'>|</span>Worldwide
           </p>
           <p className='py-1 italic'>English Language Instructor (2014 – 2022)</p>
