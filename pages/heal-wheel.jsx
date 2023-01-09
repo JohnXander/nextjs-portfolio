@@ -68,8 +68,8 @@ const healWheel = () => {
             />
           </div>
           <p>
-            Very basic sign-up and login components. Making the website look beautiful was not my primary goal
-            for this project. If I continue developing Heal Wheel in future, I will learn how to authenticate the login 
+            Very basic sign-up and login components - making the website look beautiful was not my primary goal
+            for this project. When I continue developing Heal Wheel in future, I plan to authenticate the login 
             credentials with Next-Auth, as well as adding some error-handling functions to the sign-in process.
           </p>
           <div className='flex gap-4 py-4'>

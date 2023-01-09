@@ -57,7 +57,7 @@ const cohortManager = () => {
           <p className='pt-2'>
             This was the main team project at Boolean UK Coding Academy. Working on this project really exposed me
             to relevant aspects of the industry, such as using Kanban Boards and working in an Agile / Scrum
-            environment. The app took 2 weeks to build and our cohort was split into small teams of 3 or 4 people. 
+            environment. The app took 1 month to build and our cohort was split into small teams of 3 or 4 people. 
           </p>
           <div className='flex gap-4'>
             <Image
@@ -76,9 +76,9 @@ const cohortManager = () => {
             />
           </div>
           <p>
-            The login process is guarded by back end authentication processes, including JWT tokens and secrets. On 
-            the front end, if a user&apos;s post qualifies as <em>Post of the Week</em> it is featured at the top of
-            the post feed with a special box shadow (see pic above). 
+            The login process is guarded by back end authentication, including JWT tokens and password hashing with
+            bCrypt. On the front end, if a user&apos;s post qualifies as <em>Post of the Week</em> it is featured
+            at the top of the post feed with a special box shadow (see pic above). 
           </p>
           <div className='flex gap-4'>
             <Image
@@ -118,7 +118,7 @@ const cohortManager = () => {
             />
           </div>
           <p>
-            Users can like and comment on a post in the same way as a social media like <em>Facebook</em>. Posts 
+            Users can like and comment on a post in the same way as a social media site like <em>Facebook</em>. Posts 
             can also be set to private, in which case they will appear blurred (as shown in the example above).
           </p>
 

@@ -50,12 +50,13 @@ const stopTheBus = () => {
             <button className='px-8 py-2 my-4 mr-8'>Back End Code</button>
           </a>
           <p className='pt-2'>
-            This was my final project at Boolean UK Coding Academy and I wanted to the project to
+            This was my final project at Boolean UK Coding Academy and I wanted it to
             encompass all of the technologies we had learnt during the course. <em>Stop the Bus</em> is 
-            a TEFL classroom game commonly played on a whiteboard. I used to play it with my students 
+            a TEFL classroom game usually played on a whiteboard. I used to play it with my students 
             all the time in my previous career as an English Language Teacher. The app was built with 
-            language schools in mind, the intention is for teachers to project it onto their whiteboard 
-            during a class.
+            language schools in mind - a piece of software that could be sold to a language learning
+            organisation. The intention is for teachers to project the game onto their whiteboards during
+            a class.
           </p>
           <div className='flex gap-4'>
             <Image
@@ -74,10 +75,11 @@ const stopTheBus = () => {
             />
           </div>
           <p>
-            The teacher has a list of games that they have created. They can mark a game as done, edit the name
-            of it or delete it. These are full-stack CRUD operations which will manipulate the data 
-            in the PostgreSQL database. On clicking a game, they will be navigated to the individual game page.
-            The teacher can also hover over their profile picture to see their profile information or sign out. 
+            On the <em>My Games</em> page, the teacher has a list of games that they have created.
+            They can mark a game as done, edit the name of it or delete it. These are full-stack CRUD operations 
+            which will manipulate the data in the PostgreSQL database. On clicking a game, they will then be
+            navigated to the individual game page. The teacher can also hover over their profile picture to see 
+            their profile information or sign out. 
           </p>
           <div className='flex gap-4'>
             <Image
@@ -96,9 +98,9 @@ const stopTheBus = () => {
             />
           </div>
           <p>
-            The teacher can reveal additional information about each answer in a row by clicking the visibility icon.
-            The teacher can also navigate to a cards page to view and manage all the cards in that teacher&apos;s
-            database across all games. 
+            The teacher can reveal additional information about each answer in a row by clicking it. They can then
+            hide the row by clicking the visibility icon. The teacher can also navigate to a cards page to view
+            and manage all the cards in that teacher&apos;s database across all games. 
           </p>
           <div className='flex gap-4'>
             <Image
@@ -119,7 +121,8 @@ const stopTheBus = () => {
           <p>
             The rules of the game is that the teacher will present a letter and then a team of students will give
             three answers for that letter. The teacher can add their answers to the row and give their team a point. 
-            Only answers that have been added to the database in card format will show an image.
+            Only answers that have been added to the database in card format will show the image and word type. 
+            Teachers can add cards to the database mid-game or they can choose to do it via the cards page. 
           </p>
           <div className='flex gap-4'>
             <Image
