@@ -26,7 +26,6 @@ const stopTheBus = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Stop the Bus</h2>
-          <h3 className='text-gray-500 mb-1'>Oct 2022</h3>
           <h3>An app version of the popular TEFL classroom game.</h3>
         </div>
       </div>

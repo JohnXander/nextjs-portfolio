@@ -14,15 +14,13 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built Recently</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Heal Wheel'
-            date="Dec 2022"
+            title='GeoQuix'
             backgroundImg={healWheelImg}
-            projectUrl='/heal-wheel'
+            projectUrl='/geoquix'
             tech='TypeScript, Next.js, Tailwind, Prisma, tRPC, Vercel'
           />
           <ProjectItem
             title='Kubud'
-            date="Dec 2022"
             backgroundImg={kubudImg}
             projectUrl='/kubud'
             tech='TypeScript, Next.js, Tailwind, Prisma, tRPC, PostgreSQL'
@@ -30,7 +28,6 @@ const Projects = () => {
           />
           <ProjectItem
             title='Stop the Bus'
-            date="Oct 2022"
             backgroundImg={stopTheBusImg}
             projectUrl='/stop-the-bus'
             tech='JavaScript, React.js, Express.js, Node.js, Prisma, PostgreSQL'
@@ -38,7 +35,6 @@ const Projects = () => {
           />
           <ProjectItem
             title='Cohort Manager'
-            date="Oct 2022"
             backgroundImg={cohortManagerImg}
             projectUrl='/cohort-manager'
             tech='JavaScript, React.js, Express.js, Node.js, Prisma, PostgreSQL'
