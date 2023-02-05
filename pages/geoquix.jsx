@@ -47,7 +47,7 @@ const geoQuix = () => {
           >
             <button className='px-8 py-2 my-4'>Demo</button>
           </a>
-          <p>
+          <p className='mt-2'>
             GeoQuix is a geography quiz app that lets you test your knowledge on different countries around the world.
             You can challenge yourself by playing solo or against friends to see who can get the highest score.
             With fun and engaging quizzes, GeoQuix makes learning about geography an enjoyable experience.
@@ -80,10 +80,8 @@ const geoQuix = () => {
             />
           </div>
           <p>
-            The wheel consists of 4 life categories, each of which have 5 levels (default level: 1). The levels 
-            you select will not be stored in the database until you press the <em>Save Stats</em> button.
-            If you attempt to navigate to the <em>Advice</em> component without first saving the stats, a modal
-            will appear and prompt you to do so.
+            You can then save your score to the PostgreSQL database. The data in the leaderboard is retrieved with
+            Prisma and tRPC. You can sort the data by category, score or accuracy. 
           </p>
           <div className='flex gap-4 py-4'>
             <Image
@@ -95,10 +93,12 @@ const geoQuix = () => {
             />
           </div>
           <p>
-            The levels in the advice boxes will now correspond with the wheel as this data is being fetched 
-            with a tRPC function. On clicking a <em>See Advice</em> button, a modal will appear with the corresponding
-            advice. My friend hasn&apos;t yet finished writing their advice data, so for now, the information in the 
-            database is simply <em>Mind advice 1</em>, <em>Mind advice 2</em> etc.
+            Enjoy the full experience at:&nbsp;
+            <a
+              href="https://geoquix.vercel.app"
+              className='underline'>
+              https://geoquix.vercel.app
+            </a>
           </p>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 h-fit'>

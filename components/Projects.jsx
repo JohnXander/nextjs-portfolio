@@ -1,4 +1,4 @@
-import healWheelImg from '../public/assets/projects/heal-wheel.png';
+import geoquixHomepage from '../public/assets/projects/geoquixHomepage.png';
 import kubudImg from '../public/assets/projects/kubud.png'
 import stopTheBusImg from '../public/assets/projects/stop-the-bus.png'
 import cohortManagerImg from '../public/assets/projects/cohort-manager.png'
@@ -15,7 +15,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='GeoQuix'
-            backgroundImg={healWheelImg}
+            backgroundImg={geoquixHomepage}
             projectUrl='/geoquix'
             tech='TypeScript, Next.js, Tailwind, Prisma, tRPC, Vercel'
           />
