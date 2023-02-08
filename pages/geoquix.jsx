@@ -3,11 +3,6 @@ import React from 'react';
 import geoQuixHomepage from '../public/assets/projects/geoquixHomepage.png';
 import geoQuixQuiz from '../public/assets/projects/geoquixQuiz.png';
 import geoQuixLeaderboard from '../public/assets/projects/geoquixLeaderboard.png';
-
-
-
-import healWheelAdvice from '../public/assets/projects/heal-wheel-advice.png';
-import healWheelModal from '../public/assets/projects/heal-wheel-modal.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -34,14 +29,14 @@ const geoQuix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <a
-            href='https://github.com/JohnXander/heal-wheel'
+            href='https://github.com/JohnXander/geoquix'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 my-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://heal-wheel.vercel.app/'
+            href='https://geoquix.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
